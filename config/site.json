@@ -1,0 +1,94 @@
+{
+  "_hinweis": "Zentrale Konfiguration. Felder mit dem Präfix '_' sind Kommentare und werden von der Website ignoriert. Werte 'null' bedeuten: noch nicht bekannt – bitte vom Verein ergänzen.",
+  "name": "Südstadt volleyteam",
+  "shortName": "volleyteam",
+  "brand": { "line1": "Südstadt", "line2": "volleyteam" },
+  "tagline": "Building Champions on and off the court",
+  "description": "Das Südstadt volleyteam: Leistungsvolleyball für Damen, Herren und Jugend gemeinsam mit der Sportunion Südstadt, der Sportunion Perchtoldsdorf und dem Beach Volleyteam Wiener Neudorf.",
+  "locale": "de-AT",
+  "logo": {
+    "src": "assets/logos/logo-placeholder.svg",
+    "alt": "Logo des Südstadt volleyteam",
+    "_hinweis": "Platzhalter-Logo. Das offizielle Vereinslogo (z. B. als SVG oder PNG) bitte unter assets/logos/ ablegen und den Pfad hier ändern."
+  },
+  "favicon": "assets/icons/favicon.svg",
+  "heroImage": {
+    "src": "assets/images/hero-court.svg",
+    "alt": "Illustration eines Volleyballfelds mit roten Linien auf dunklem Grund",
+    "_hinweis": "Platzhalter-Grafik. Ein echtes Actionfoto (z. B. assets/images/hero.jpg) mit Bildrechten des Vereins ersetzt sie einfach durch Änderung dieses Pfads."
+  },
+  "partners": [
+    "Sportunion Südstadt",
+    "Sportunion Perchtoldsdorf",
+    "Beach Volleyteam Wiener Neudorf"
+  ],
+  "contactDetails": {
+    "email": null,
+    "phone": null,
+    "address": null,
+    "_hinweis": "Auf der bisherigen Website sind keine E-Mail-Adresse, Telefonnummer oder Postanschrift veröffentlicht. Bitte vom Verein ergänzen."
+  },
+  "social": [
+    { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/volleyteam.at/" }
+  ],
+  "links": {
+    "shop": { "label": "Fanshop", "url": "https://www.team-bekleidung.at/volleyteam-Moedling" },
+    "sponsorPackages": { "label": "Sponsorpakete ansehen", "url": "https://web.faninvest.com/volleyteam-moedling" },
+    "vereinsplaner": { "label": "Vereinsplaner (Android)", "url": "https://play.google.com/store/apps/details?id=at.vereinsplaner.app" },
+    "vereinsplanerIos": { "label": "Vereinsplaner (iOS)", "url": "https://apps.apple.com/app/id1067566347" },
+    "consentForm": { "label": "Einwilligungserklärung (PDF)", "url": "https://www.volleyteam.at/wp-content/uploads/2024/10/Einwilligungserklaerung.pdf" }
+  },
+  "footer": {
+    "about": "Eine der größten und aktivsten Spielgemeinschaften Niederösterreichs – für Damen, Herren und Jugend.",
+    "copyright": "Südstadt volleyteam",
+    "legalNote": "Inhalte basieren auf der bisherigen Vereinswebsite volleyteam.at."
+  },
+  "contact": {
+    "enabled": true,
+    "_hinweis_recipient": "recipientEmail wird nur zur Anzeige/Dokumentation genutzt und nie an EmailJS gesendet. Der echte Empfänger der Vereinsbenachrichtigung wird ausschließlich im EmailJS-Dashboard (Template 'To email') festgelegt.",
+    "recipientEmail": null,
+    "subjectPrefix": "[volleyteam.at] Kontaktanfrage",
+    "fields": [
+      { "name": "name", "label": "Vor- und Nachname", "type": "text", "required": true, "placeholder": "z. B. Maria Muster", "minLength": 2, "maxLength": 100, "autocomplete": "name", "errorText": "Bitte gib deinen Namen an (mindestens 2 Zeichen)." },
+      { "name": "email", "label": "E-Mail-Adresse", "type": "email", "required": true, "placeholder": "name@beispiel.at", "maxLength": 200, "autocomplete": "email", "help": "An diese Adresse senden wir dir auch eine Eingangsbestätigung.", "errorText": "Bitte gib eine gültige E-Mail-Adresse an." },
+      { "name": "subject", "label": "Betreff", "type": "text", "required": true, "placeholder": "z. B. Schnuppertraining U16", "minLength": 3, "maxLength": 150, "errorText": "Bitte gib einen Betreff an (mindestens 3 Zeichen)." },
+      { "name": "message", "label": "Deine Nachricht", "type": "textarea", "required": true, "placeholder": "Erzähl uns kurz etwas über dich: Alter, Erfahrung, Spielniveau …", "minLength": 10, "maxLength": 2000, "errorText": "Bitte schreib uns eine Nachricht (mindestens 10 Zeichen)." },
+      { "name": "consent", "label": "Ich habe die Datenschutzerklärung gelesen und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verarbeitet werden.", "type": "checkbox", "required": true, "errorText": "Bitte stimme der Verarbeitung deiner Angaben zu.", "excludeFromEmail": true }
+    ],
+    "messages": {
+      "sending": "Wird gesendet …",
+      "submitLabel": "Nachricht senden",
+      "success": "Danke! Deine Nachricht wurde an den Verein übermittelt. Wir melden uns so bald wie möglich bei dir.",
+      "successWithConfirmation": "Danke! Deine Nachricht wurde an den Verein übermittelt und eine Eingangsbestätigung an deine E-Mail-Adresse versendet. Wir melden uns so bald wie möglich bei dir.",
+      "partialFailure": "Deine Nachricht wurde an den Verein übermittelt, die Eingangsbestätigung an deine E-Mail-Adresse konnte aber nicht versendet werden. Bitte sende deine Nachricht nicht erneut – wir melden uns bei dir.",
+      "error": "Beim Senden ist leider ein Fehler aufgetreten. Bitte versuche es später noch einmal.",
+      "rateLimited": "Es wurden gerade zu viele Anfragen gesendet. Bitte versuche es in einigen Minuten erneut.",
+      "network": "Es besteht keine Verbindung zum Mailservice. Bitte prüfe deine Internetverbindung und versuche es erneut.",
+      "validation": "Bitte korrigiere die markierten Felder.",
+      "captcha": "Bitte bestätige, dass du kein Roboter bist.",
+      "notConfigured": "Das Kontaktformular ist derzeit nicht aktiv. Bitte versuche es später noch einmal oder melde dich über unsere Social-Media-Kanäle.",
+      "disclaimer": "Hinweis: Eine erfolgreiche Übermittlung bedeutet, dass der Mailservice deine Anfrage angenommen hat – nicht zwingend, dass sie bereits im Posteingang angekommen ist."
+    },
+    "confirmation": {
+      "enabled": true,
+      "recipientField": "email",
+      "subject": "Wir haben deine Nachricht erhalten",
+      "message": "Vielen Dank für deine Nachricht an das Südstadt volleyteam! Wir haben deine Anfrage erhalten und melden uns so bald wie möglich bei dir.",
+      "_hinweis": "Betreff und Text werden als Variablen an das EmailJS-Template übergeben. Ob sie tatsächlich verwendet werden, bestimmt das Template im EmailJS-Dashboard."
+    },
+    "captcha": {
+      "enabled": false,
+      "provider": "recaptcha",
+      "siteKey": "YOUR_RECAPTCHA_SITE_KEY",
+      "_hinweis": "Optional. Erst aktivieren, wenn reCAPTCHA im EmailJS-Dashboard (Service-Einstellungen) eingerichtet ist. Der Site Key ist öffentlich; der Secret Key gehört ausschließlich ins EmailJS-Dashboard."
+    },
+    "cooldownSeconds": 30,
+    "emailjs": {
+      "publicKey": "YOUR_PUBLIC_KEY",
+      "serviceId": "YOUR_SERVICE_ID",
+      "contactTemplateId": "YOUR_CONTACT_TEMPLATE_ID",
+      "confirmationTemplateId": "YOUR_CONFIRMATION_TEMPLATE_ID",
+      "_hinweis": "Platzhalter. Solange hier 'YOUR_…' steht, bleibt das Formular deaktiviert und es wird kein Versand behauptet."
+    }
+  }
+}

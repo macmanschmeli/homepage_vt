@@ -1,0 +1,82 @@
+/* Seitenspezifische Layouts */
+
+/* ---------- Startseite: Hero ---------- */
+.hero {
+  position: relative;
+  isolation: isolate;
+  min-height: min(46rem, calc(100svh - var(--header-h)));
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-block: var(--space-8);
+  background: var(--color-bg);
+}
+.hero__media { position: absolute; inset: 0; z-index: -2; }
+.hero__media img { width: 100%; height: 100%; object-fit: cover; }
+.hero::before {
+  content: "";
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(90deg, rgb(11 11 12 / 0.92) 0%, rgb(11 11 12 / 0.55) 55%, rgb(11 11 12 / 0.2) 100%),
+    linear-gradient(0deg, var(--color-bg) 0%, transparent 35%);
+}
+.hero h1 { font-size: clamp(3rem, 1.5rem + 8vw, 8rem); max-width: 11ch; margin-bottom: var(--space-5); }
+.hero h1 .accent { color: var(--color-red-text); display: block; }
+.hero .lead { color: #d3d3d9; margin-bottom: var(--space-6); }
+.hero__actions { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.hero__scroll { position: absolute; bottom: var(--space-5); left: var(--gutter); font-size: var(--fs-xs); letter-spacing: var(--ls-eyebrow); text-transform: uppercase; color: var(--color-text-faint); }
+
+.hero [data-hero] { animation: hero-in 900ms var(--ease-out) both; animation-delay: calc(var(--hi, 0) * 110ms + 100ms); }
+@keyframes hero-in { from { opacity: 0; transform: translateY(24px); } }
+
+/* Zweispaltiger Textblock */
+.split { display: grid; gap: var(--space-7); align-items: start; }
+@media (min-width: 1024px) { .split { grid-template-columns: 5fr 7fr; gap: var(--space-8); } .split--even { grid-template-columns: 1fr 1fr; } }
+.split__body > p { color: var(--color-text-muted); }
+
+/* Band: Nachhaltigkeit / CTA */
+.band {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2rem, 1rem + 5vw, 4.5rem);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(40rem 20rem at 100% 0%, rgb(217 6 26 / 0.45), transparent 70%),
+    var(--color-surface);
+  border: var(--border-card);
+}
+.band h2 { max-width: 18ch; }
+.band p { max-width: 44rem; color: var(--color-text-muted); font-size: var(--fs-md); }
+
+/* Trainer-Karten */
+.trainer-card .card__media { aspect-ratio: 3 / 4; }
+.trainer-card__role { color: var(--color-red-text); font-weight: 700; font-size: var(--fs-sm); margin-bottom: var(--space-3); }
+.trainer-card__quote { margin: var(--space-4) 0 0; padding-left: var(--space-4); border-left: 3px solid var(--color-red); color: var(--color-text-muted); font-style: italic; }
+.trainer-card__links { margin-top: var(--space-4); }
+.trainer-card details summary { cursor: pointer; font-weight: 700; color: var(--color-text); margin-top: var(--space-3); }
+.trainer-card details summary:hover { color: var(--color-red-text); }
+.trainer-card details p { margin-top: var(--space-3); color: var(--color-text-muted); }
+
+/* Teams */
+.team-list { display: grid; gap: var(--space-6); }
+.team { display: grid; gap: var(--space-5); }
+.team__coaches { margin: 0; font-size: var(--fs-sm); color: var(--color-text-muted); }
+.team__coaches a { color: var(--color-text); }
+@media (min-width: 1024px) { .team--with-media { grid-template-columns: 5fr 7fr; } }
+
+/* Kontakt */
+.contact-layout { display: grid; gap: var(--space-7); }
+@media (min-width: 1024px) { .contact-layout { grid-template-columns: 7fr 5fr; gap: var(--space-8); } }
+.contact-aside dl { margin: 0; display: grid; gap: var(--space-4); }
+.contact-aside dt { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: var(--ls-eyebrow); color: var(--color-text-faint); font-weight: 700; }
+.contact-aside dd { margin: 0.15rem 0 0; }
+
+/* 404 */
+.not-found { text-align: center; padding-block: clamp(5rem, 12vw, 10rem); }
+.not-found__code { font-family: var(--font-display); font-weight: 800; font-size: clamp(6rem, 25vw, 16rem); line-height: 1; color: transparent; -webkit-text-stroke: 2px var(--color-red); }
+
+/* Druck */
+@media print {
+  .site-header, .site-footer, .mobile-menu, .filter-bar, .skip-link { display: none !important; }
+  body { background: #fff; color: #000; }
+}

@@ -1,0 +1,185 @@
+{
+  "_hinweis": "Seitentexte. Strings dürfen KEIN HTML enthalten (sie werden als reiner Text ausgegeben). In Rechtstexten markiert [[TODO: …]] Stellen, die der Verein ergänzen oder prüfen muss.",
+  "home": {
+    "title": "Südstadt volleyteam – Volleyball für Damen, Herren und Jugend",
+    "description": "Das Südstadt volleyteam zählt zu den größten und aktivsten Volleyball-Spielgemeinschaften Niederösterreichs. Jetzt schnuppern!",
+    "hero": {
+      "eyebrow": "Volleyball in Niederösterreich",
+      "titleLine1": "Building Champions",
+      "titleLine2": "on and off the court",
+      "lead": "Eine der größten und aktivsten Spielgemeinschaften Niederösterreichs – für Damen, Herren und Jugend. Seit über 40 Jahren im Leistungssport.",
+      "primaryCta": { "label": "Jetzt schnuppern", "href": "contact.html" },
+      "secondaryCta": { "label": "Trainingsplan ansehen", "href": "trainings.html" }
+    },
+    "about": {
+      "eyebrow": "Wer wir sind",
+      "title": "Gemeinschaft, die Leistung schafft",
+      "paragraphs": [
+        "Gemeinsam mit der Sportunion Südstadt, der Sportunion Perchtoldsdorf und dem Beach Volleyteam Wiener Neudorf bilden wir eine leistungsstarke Einheit. Seit über 40 Jahren sind wir im Damen- und Herren-Leistungssport vertreten – mit Engagement, Leidenschaft und dem Blick nach vorne.",
+        "Unsere Vision: Spielerinnen und Spieler auszubilden, die in den höchsten Spielklassen Österreichs bestehen können – und dabei die Freude am Sport zu fördern. Teamgeist, persönliche Entwicklung und Spaß an Bewegung stehen für uns genauso im Mittelpunkt wie der sportliche Erfolg."
+      ]
+    },
+    "pillarsTitle": "Das zeichnet uns aus",
+    "pillars": [
+      { "title": "Nachwuchsarbeit", "text": "Wir sind in allen Altersklassen vertreten und bieten Kindern und Jugendlichen eine fundierte sportliche Ausbildung." },
+      { "title": "Starke Trainer", "text": "Unsere Trainerinnen und Trainer bilden sich regelmäßig fort, um Training auf hohem Niveau zu gewährleisten." },
+      { "title": "Weiterbildung", "text": "Schiedsrichterkurse und vielfältige Weiterbildungsangebote fördern die persönliche Entwicklung unserer Mitglieder." },
+      { "title": "Einfacher Einstieg", "text": "Mit Schnuppertrainings und enger Zusammenarbeit mit Schulen machen wir den Einstieg in den Volleyballsport leicht." }
+    ],
+    "youth": {
+      "eyebrow": "Jugendarbeit",
+      "title": "Jugendarbeit auf höchstem Niveau",
+      "text": "Wir glauben daran, dass Sport Gemeinschaft schafft, Perspektiven eröffnet und Menschen über sich hinauswachsen lässt – deshalb investieren wir mit voller Überzeugung in unsere Jugendarbeit und in die Zukunft des österreichischen Volleyballs.",
+      "cta": { "label": "Unsere Teams", "href": "teams.html" }
+    },
+    "sustainability": {
+      "eyebrow": "Verantwortung",
+      "title": "Der nachhaltigste Verein Österreichs",
+      "text": "Wir wurden als nachhaltigster Volleyballverein Österreichs ausgezeichnet – eine Anerkennung für unser Engagement im Umweltschutz: durch energiesparende Infrastruktur, ressourcenschonende Maßnahmen im Trainings- und Spielbetrieb und bewusste Mobilitätslösungen."
+    },
+    "matchesSection": { "eyebrow": "Termine", "title": "Nächste Matches", "linkLabel": "Alle Termine" },
+    "teamsSection": { "eyebrow": "Mannschaften", "title": "Unsere Teams", "linkLabel": "Alle Teams" },
+    "sponsorsSection": { "eyebrow": "Partner", "title": "Unsere Sponsoren", "linkLabel": "Zum Sponsoring" },
+    "join": {
+      "eyebrow": "Mitmachen",
+      "title": "Schnuppern erwünscht",
+      "text": "Wir bieten Trainings für alle Altersklassen und viele Leistungsstufen. Schreib uns kurz, wer du bist und welche Erfahrung du mitbringst – wir melden uns und vereinbaren einen Schnuppertermin.",
+      "cta": { "label": "Schnuppertraining anfragen", "href": "contact.html" }
+    }
+  },
+  "matches": {
+    "title": "Matches & Termine – Südstadt volleyteam",
+    "description": "Die nächsten Matches und Termine des Südstadt volleyteam.",
+    "eyebrow": "Spielbetrieb",
+    "heading": "Matches & Termine",
+    "intro": "Alle kommenden Spiele und Termine auf einen Blick. Vergangene Termine werden automatisch ausgeblendet.",
+    "exampleNotice": "Die angezeigten Termine sind Beispieldaten und keine bestätigten Spieltermine. Der Verein muss config/matches.json aktualisieren.",
+    "empty": "Aktuell sind keine kommenden Termine eingetragen.",
+    "homeLabel": "Heimspiel",
+    "awayLabel": "Auswärtsspiel",
+    "eventLabel": "Termin",
+    "allFilter": "Alle",
+    "filterLabel": "Mannschaft"
+  },
+  "trainings": {
+    "title": "Trainingsplan – Südstadt volleyteam",
+    "description": "Trainingszeiten und Hallen des Südstadt volleyteam, filterbar nach Mannschaft und Halle.",
+    "eyebrow": "Training",
+    "heading": "Trainingsplan",
+    "intro": "Finde heraus, welche Mannschaft wann und wo trainiert – und wie du bei uns einsteigen kannst.",
+    "joinTitle": "Mittrainieren – so geht's",
+    "joinSteps": [
+      "Kontaktiere uns mit einer kurzen Beschreibung von dir und deinem Niveau beziehungsweise deiner Erfahrung.",
+      "Wir melden uns bei dir und vereinbaren einen Termin zum Schnuppern.",
+      "Passt es für dich und für uns, bekommst du von der zuständigen Trainerin oder dem Trainer die Informationen zur Anmeldung."
+    ],
+    "joinCta": { "label": "Jetzt schnuppern", "href": "contact.html" },
+    "organisationTitle": "Organisation im Verein",
+    "organisationText": "Für die Organisation des Trainings nutzen wir die App „Vereinsplaner“. Nach dem Schnuppern erhältst du von deinem Trainer eine genaue Anleitung zur Anmeldung. Sobald du in der App registriert bist, bekommst du die Vorschreibung des Mitgliedsbeitrags – mit der Zahlung trittst du dem Verein bei.",
+    "feeText": "Der Mitgliedsbeitrag beträgt laut bisheriger Vereinswebsite € 450,– pro Jahr. [[TODO: Betrag vor Veröffentlichung aktualisieren/bestätigen]]",
+    "campTitle": "Trainingslager",
+    "campText": "Für unsere Mannschaften gibt es jedes Jahr ein Trainingscamp, traditionell in Langenlois. Es dient der Saisonvorbereitung und kann auch für Spieler interessant sein, die in der nächsten Saison in ein Team einsteigen möchten. Frag uns einfach, ob das in deinem Fall möglich ist."
+  },
+  "teams": {
+    "title": "Teams – Südstadt volleyteam",
+    "description": "Die Mannschaften des Südstadt volleyteam: Herren, Damen und Jugend.",
+    "eyebrow": "Mannschaften",
+    "heading": "Unsere Teams",
+    "intro": "Von den Spitzenmannschaften bis zum jüngsten Nachwuchs – bei uns findet jede und jeder die passende sportliche Heimat.",
+    "leagueLabel": "Spielklasse",
+    "leagueUnknown": "Spielklasse noch nicht angegeben",
+    "coachesLabel": "Trainer",
+    "trainingLinkLabel": "Trainingszeiten ansehen",
+    "empty": "Aktuell sind keine Teams eingetragen."
+  },
+  "trainers": {
+    "title": "Trainer – Südstadt volleyteam",
+    "description": "Das Trainerteam des Südstadt volleyteam.",
+    "eyebrow": "Trainerteam",
+    "heading": "Unsere Trainerinnen und Trainer",
+    "intro": "Erfahrung aus Bundesliga, Beach und Nachwuchsarbeit – und die Bereitschaft, sich ständig weiterzubilden.",
+    "readMore": "Mehr lesen",
+    "teamsLabel": "Mannschaften",
+    "photoMissing": "Foto folgt",
+    "empty": "Aktuell sind keine Trainerprofile eingetragen."
+  },
+  "sponsors": {
+    "title": "Sponsoring – Südstadt volleyteam",
+    "description": "Unsere Sponsoren und Unterstützer – und wie du das Südstadt volleyteam unterstützen kannst.",
+    "eyebrow": "Sponsoring",
+    "heading": "Du willst uns unterstützen?",
+    "intro": "Jeder Beitrag hilft, unsere Volleyball-Familie weiter wachsen zu lassen.",
+    "whyTitle": "Wofür Sponsoring zählt",
+    "whyText": "Unser Verein wird von zahlreichen engagierten Sponsoren unterstützt – ohne sie wäre ein reibungsloser Vereinsbetrieb in dieser Form nicht möglich. Die Hilfe unserer Partner fließt direkt in die Ausbildung unserer Spielerinnen und Spieler, in hochwertige Ausrüstung und Dressen sowie in die laufende Fortbildung unserer Trainerinnen und Trainer. So können wir Trainings auf hohem Niveau anbieten und den Volleyballsport in unserer Region nachhaltig fördern.",
+    "ctaTitle": "Partner werden",
+    "ctaText": "Informationen zu den Sponsorpaketen findest du über den folgenden Link. Bei Fragen melde dich einfach bei uns.",
+    "ctaPrimary": { "label": "Sponsorpakete ansehen", "linkKey": "sponsorPackages" },
+    "ctaSecondary": { "label": "Kontakt aufnehmen", "href": "contact.html" },
+    "tiers": {
+      "sponsor": { "title": "Unsere Sponsoren", "large": true },
+      "supporter": { "title": "Unsere Unterstützer", "large": false }
+    },
+    "logoMissing": "Logo folgt",
+    "empty": "Aktuell sind keine Sponsoren eingetragen.",
+    "newTabHint": "(öffnet in neuem Tab)"
+  },
+  "contact": {
+    "title": "Kontakt – Südstadt volleyteam",
+    "description": "Fragen zum Verein, Schnuppertraining oder andere Anliegen? Schreib uns.",
+    "eyebrow": "Kontakt",
+    "heading": "Schreib uns",
+    "intro": "Hast du Fragen zum Verein, zu Schnuppertrainings oder ein anderes Anliegen? Nutze das Kontaktformular.",
+    "asideTitle": "Direkt erreichbar",
+    "labels": { "email": "E-Mail", "phone": "Telefon", "address": "Adresse", "social": "Social Media" },
+    "missing": "Noch nicht angegeben",
+    "privacyHint": "Hinweise zur Verarbeitung deiner Daten findest du in der Datenschutzerklärung."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung – Südstadt volleyteam",
+    "description": "Informationen zur Verarbeitung personenbezogener Daten auf dieser Website.",
+    "eyebrow": "Rechtliches",
+    "heading": "Datenschutzerklärung",
+    "intro": "Entwurf – vor Veröffentlichung durch den Verein zu prüfen und zu vervollständigen.",
+    "notice": "Dieser Text ist ein technischer Entwurf auf Basis der tatsächlich implementierten Funktionen und KEINE Rechtsberatung. Gelb markierte Stellen müssen vom Verein ergänzt bzw. rechtlich geprüft werden.",
+    "sections": [
+      { "heading": "1. Verantwortlicher", "paragraphs": ["Verantwortlich für die Datenverarbeitung auf dieser Website ist: [[TODO: vollständiger Vereinsname laut Vereinsregister, ZVR-Zahl, Anschrift, E-Mail-Adresse]]"] },
+      { "heading": "2. Hosting", "paragraphs": ["Diese Website wird als statische Website über GitHub Pages bereitgestellt. Beim Aufruf werden technisch notwendige Verbindungsdaten (z. B. IP-Adresse, Zeitpunkt, aufgerufene Seite) vom Hosting-Anbieter verarbeitet. [[TODO: Anbieter, Rechtsgrundlage, Drittlandübermittlung (USA) und Auftragsverarbeitung prüfen; bei Hosting auf eigener Domain/anderem Anbieter anpassen]]"] },
+      { "heading": "3. Cookies, Tracking und Schriftarten", "paragraphs": ["Diese Website setzt nach aktuellem Stand keine Cookies, verwendet keine Analyse- oder Marketing-Tools und lädt keine externen Schriftarten. [[TODO: Aussage nach dem finalen Release erneut prüfen]]"] },
+      { "heading": "4. Kontaktformular (EmailJS)", "paragraphs": [
+        "Wenn du das Kontaktformular verwendest, werden die von dir eingegebenen Daten (Name, E-Mail-Adresse, Betreff, Nachricht) über den Dienst EmailJS an den Verein übermittelt. Zusätzlich senden wir dir – sofern aktiviert – eine automatische Eingangsbestätigung an die angegebene E-Mail-Adresse.",
+        "EmailJS und der angebundene E-Mail-Anbieter verarbeiten diese Daten dafür in unserem Auftrag. [[TODO: Anbieter-Angaben von EmailJS und dem verbundenen Mail-Service, Auftragsverarbeitungsvertrag, Drittlandübermittlung, Speicherdauer prüfen]]",
+        "Zweck ist die Bearbeitung deiner Anfrage. Rechtsgrundlage ist deine Einwilligung bzw. die Anbahnung einer Mitgliedschaft (Art. 6 Abs. 1 lit. a bzw. b DSGVO). [[TODO: rechtlich bestätigen]] Deine Daten werden gelöscht, sobald sie für die Bearbeitung nicht mehr erforderlich sind. [[TODO: Speicherdauer festlegen]]",
+        "Falls ein CAPTCHA-Dienst (z. B. Google reCAPTCHA) aktiviert wird, werden dabei zusätzlich technische Daten wie die IP-Adresse an den Anbieter übermittelt. [[TODO: Abschnitt nur beibehalten, wenn CAPTCHA aktiviert ist; Einwilligungsmechanismus klären]]"
+      ] },
+      { "heading": "5. Externe Links", "paragraphs": ["Diese Website verlinkt auf externe Seiten (z. B. Instagram, Sponsoren, Vereinsplaner, Fanshop). Für deren Datenverarbeitung sind die jeweiligen Betreiber verantwortlich."] },
+      { "heading": "6. Deine Rechte", "paragraphs": ["Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, eine erteilte Einwilligung jederzeit zu widerrufen. Bei Beschwerden kannst du dich an die österreichische Datenschutzbehörde (www.dsb.gv.at) wenden. [[TODO: Kontaktstelle für Betroffenenanfragen angeben]]"] }
+    ]
+  },
+  "imprint": {
+    "title": "Impressum – Südstadt volleyteam",
+    "description": "Impressum und Offenlegung des Südstadt volleyteam.",
+    "eyebrow": "Rechtliches",
+    "heading": "Impressum",
+    "intro": "Entwurf – die Angaben fehlen noch und müssen vom Verein geliefert werden.",
+    "notice": "Es wurden bewusst keine rechtlichen Angaben erfunden. Welche Angaben konkret erforderlich sind (z. B. nach E-Commerce-Gesetz und Mediengesetz), muss der Verein prüfen.",
+    "sections": [
+      { "heading": "Vereinsangaben", "paragraphs": [
+        "Name des Vereins: [[TODO: vollständiger, rechtlich korrekter Vereinsname]]",
+        "Vereinssitz und Anschrift: [[TODO]]",
+        "ZVR-Zahl: [[TODO]]",
+        "Vertretungsbefugte Organe / verantwortliche Personen: [[TODO]]",
+        "Kontakt (E-Mail, ggf. Telefon): [[TODO]]"
+      ] },
+      { "heading": "Vereinszweck / Unternehmensgegenstand", "paragraphs": ["[[TODO: Vereinszweck laut Statuten]]"] },
+      { "heading": "Grundlegende Richtung der Website", "paragraphs": ["Information über das Südstadt volleyteam, seine Mannschaften, Trainings- und Spieltermine sowie Sponsoren. [[TODO: prüfen/ergänzen]]"] },
+      { "heading": "Bildrechte", "paragraphs": ["[[TODO: Urheber der verwendeten Fotos und Logos nennen, sobald echte Bilder ergänzt werden]]"] },
+      { "heading": "Website-Betrieb", "paragraphs": ["Technische Umsetzung: statische Website (HTML, CSS, JavaScript). [[TODO: Verantwortliche/r für Webseitenpflege]]"] }
+    ]
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden – Südstadt volleyteam",
+    "heading": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite gibt es nicht (mehr). Vielleicht hilft dir ein Blick auf die Startseite.",
+    "cta": { "label": "Zur Startseite", "href": "index.html" }
+  }
+}

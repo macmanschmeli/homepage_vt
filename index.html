@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Südstadt volleyteam</title>
+  <meta name="description" content="Das Südstadt volleyteam – Volleyball für Damen, Herren und Jugend.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+  <main id="main" tabindex="-1">
+    <noscript><div class="container"><div class="notice notice--error"><p>Für diese Seite wird JavaScript benötigt, da die Inhalte aus Konfigurationsdateien geladen werden.</p></div></div></noscript>
+    <section class="hero">
+      <div class="hero__media" id="hero-media" aria-hidden="false"></div>
+      <div class="container">
+        <p class="eyebrow" data-hero style="--hi:0" data-bind="page.hero.eyebrow"></p>
+        <h1 data-hero style="--hi:1"><span data-bind="page.hero.titleLine1"></span> <span class="accent" data-bind="page.hero.titleLine2"></span></h1>
+        <p class="lead" data-hero style="--hi:2" data-bind="page.hero.lead"></p>
+        <div class="hero__actions" data-hero style="--hi:3">
+          <a class="btn" id="hero-cta-1" href="contact.html"></a>
+          <a class="btn btn--ghost" id="hero-cta-2" href="trainings.html"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="split">
+          <div data-reveal>
+            <p class="eyebrow" data-bind="page.about.eyebrow"></p>
+            <h2 data-bind="page.about.title"></h2>
+          </div>
+          <div class="split__body" id="about-text" data-reveal></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-heading" data-reveal><h2 data-bind="page.pillarsTitle"></h2></div>
+        <div class="grid grid--4" id="pillars"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="band" data-reveal>
+          <p class="eyebrow" data-bind="page.youth.eyebrow"></p>
+          <h2 data-bind="page.youth.title"></h2>
+          <p data-bind="page.youth.text"></p>
+          <a class="btn" id="youth-cta" href="teams.html"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-heading section-heading--row" data-reveal>
+          <div>
+            <p class="eyebrow" data-bind="page.matchesSection.eyebrow"></p>
+            <h2 data-bind="page.matchesSection.title" style="margin:0"></h2>
+          </div>
+          <a class="btn btn--ghost" id="matches-link" href="#"></a>
+        </div>
+        <div id="home-matches"><div class="skeleton" aria-hidden="true"></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading section-heading--row" data-reveal>
+          <div>
+            <p class="eyebrow" data-bind="page.teamsSection.eyebrow"></p>
+            <h2 data-bind="page.teamsSection.title" style="margin:0"></h2>
+          </div>
+          <a class="btn btn--ghost" id="teams-link" href="#"></a>
+        </div>
+        <div id="home-teams"><div class="skeleton" aria-hidden="true"></div></div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-heading section-heading--row" data-reveal>
+          <div>
+            <p class="eyebrow" data-bind="page.sponsorsSection.eyebrow"></p>
+            <h2 data-bind="page.sponsorsSection.title" style="margin:0"></h2>
+          </div>
+          <a class="btn btn--ghost" id="sponsors-link" href="#"></a>
+        </div>
+        <div id="home-sponsors"><div class="skeleton" aria-hidden="true"></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="band" data-reveal>
+          <p class="eyebrow" data-bind="page.sustainability.eyebrow"></p>
+          <h2 data-bind="page.sustainability.title"></h2>
+          <p data-bind="page.sustainability.text"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="band" data-reveal>
+          <p class="eyebrow" data-bind="page.join.eyebrow"></p>
+          <h2 data-bind="page.join.title"></h2>
+          <p data-bind="page.join.text"></p>
+          <a class="btn" id="join-cta" href="contact.html"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

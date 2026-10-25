@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trainingsplan – Südstadt volleyteam</title>
+  <meta name="description" content="Trainingszeiten und Hallen des Südstadt volleyteam.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="trainings">
+  <header id="site-header"></header>
+  <main id="main" tabindex="-1">
+    <noscript><div class="container"><div class="notice notice--error"><p>Für diese Seite wird JavaScript benötigt, da die Inhalte aus Konfigurationsdateien geladen werden.</p></div></div></noscript>
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow" data-bind="page.eyebrow"></p>
+        <h1 data-bind="page.heading"></h1>
+        <p class="lead" data-bind="page.intro"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 id="week-heading"></h2>
+        <p class="lead" id="week-note"></p>
+        <div id="training-notice"></div>
+        <div id="training-filters"></div>
+        <div id="training-plan"><div class="skeleton" aria-hidden="true"></div></div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="grid grid--2">
+          <div data-reveal>
+            <h2 style="font-size:var(--fs-lg)" data-bind="page.joinTitle"></h2>
+            <ol id="join-steps"></ol>
+            <a class="btn" id="join-cta" href="contact.html"></a>
+          </div>
+          <div data-reveal>
+            <h2 style="font-size:var(--fs-lg)" data-bind="page.organisationTitle"></h2>
+            <p data-bind="page.organisationText"></p>
+            <p id="fee-text"></p>
+            <div class="cluster" id="app-links"></div>
+            <h3 style="margin-top:var(--space-6)" data-bind="page.campTitle"></h3>
+            <p data-bind="page.campText"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "main": [
+    { "id": "home", "label": "Home", "href": "index.html" },
+    { "id": "matches", "label": "Matches", "href": "matches.html" },
+    { "id": "trainings", "label": "Training", "href": "trainings.html" },
+    { "id": "teams", "label": "Teams", "href": "teams.html" },
+    { "id": "trainers", "label": "Trainer", "href": "trainers.html" },
+    { "id": "sponsors", "label": "Sponsoring", "href": "sponsors.html" },
+    { "id": "contact", "label": "Kontakt", "href": "contact.html" }
+  ],
+  "cta": { "label": "Jetzt schnuppern", "href": "contact.html" },
+  "footer": [
+    { "id": "contact", "label": "Kontakt", "href": "contact.html" },
+    { "id": "privacy", "label": "Datenschutz", "href": "privacy.html" },
+    { "id": "imprint", "label": "Impressum", "href": "imprint.html" }
+  ],
+  "external": [
+    { "label": "Fanshop", "linkKey": "shop" }
+  ],
+  "labels": {
+    "skip": "Zum Inhalt springen",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen",
+    "mainNav": "Hauptnavigation",
+    "footerNav": "Rechtliches und Kontakt",
+    "homeLink": "Südstadt volleyteam – zur Startseite"
+  }
+}

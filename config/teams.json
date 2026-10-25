@@ -1,0 +1,56 @@
+[
+  {
+    "id": "herren-1",
+    "name": "Herren 1",
+    "category": "herren",
+    "league": null,
+    "description": "Die 1. Herrenmannschaft ist das Herzstück und der Stolz des Vereins: Hier spielen die Top-Athleten, die sich durch Talent, Einsatz und Leidenschaft an die Spitze gekämpft haben – mit Teamgeist, Disziplin und dem Willen, immer das Beste aus sich herauszuholen.",
+    "coaches": ["martin-plessl"],
+    "image": null,
+    "trainingFilter": "herren",
+    "_hinweis": "Liga/Spielklasse: auf der bisherigen Website nicht eindeutig ausgewiesen – bitte ergänzen."
+  },
+  {
+    "id": "damen-1",
+    "name": "Damen 1",
+    "category": "damen",
+    "league": "1. Landesliga",
+    "description": "Die 1. Damenmannschaft ist gemeinsam mit den Herren 1 das Aushängeschild des Vereins: dynamisch, ehrgeizig und mit großem Zusammenhalt auf und neben dem Platz – ein Vorbild für den gesamten Verein.",
+    "coaches": [],
+    "image": null,
+    "trainingFilter": "damen",
+    "_hinweis": "Liga laut Trainerprofil von Cathleen Klose (Damen 1, 1. Landesliga). Trainer bitte ergänzen."
+  },
+  {
+    "id": "herren-2",
+    "name": "Herren 2",
+    "category": "herren",
+    "league": null,
+    "description": "Die 2. Herrenmannschaft vereint aufstrebende Talente aus der Jugend und engagierte Spieler auf dem Weg an die Spitze. Sie ist ein wichtiges Sprungbrett und eine tragende Säule des Vereinslebens.",
+    "coaches": ["jakob-rogy"],
+    "image": null,
+    "trainingFilter": "herren"
+  },
+  {
+    "id": "damen-2",
+    "name": "Damen 2",
+    "category": "damen",
+    "league": "2. Landesliga",
+    "description": "Die 2. Damenmannschaft steht für Entwicklung, Durchhaltevermögen und den Willen, sich stetig zu verbessern – mit dem gleichen Feuer wie die 1. Mannschaft.",
+    "coaches": ["daniel-poterpin"],
+    "image": null,
+    "trainingFilter": "damen",
+    "_hinweis": "Liga laut Trainerprofilen (Cathleen Klose, Julia und Paulina: 2. Landesliga)."
+  },
+  {
+    "id": "jugend",
+    "name": "Jugend",
+    "category": "jugend",
+    "league": null,
+    "description": "Die Jugendmannschaften sind das Herzstück der Nachwuchsarbeit: Mannschaften für alle Altersklassen, vom jüngsten Anfänger bis zu ambitionierten Jugendlichen, begleitet von engagierten Trainerinnen und Trainern.",
+    "coaches": ["verena-swoboda", "konstantin-miller", "timon-kosel", "amra-dzilic", "sebastian-koenig", "fabio-kosel"],
+    "image": null,
+    "trainingFilter": null,
+    "_hinweis": "Einzelne Jugendteams (U16, U18, U20, Beginners, Kinder) können hier als eigene Einträge ergänzt werden."
+  }
+]

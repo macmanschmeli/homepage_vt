@@ -1,0 +1,6 @@
+[
+  { "id": "bsp-m1", "title": "H1 vs Union Raiffeisen Waldviertel", "start": "2026-10-24", "time": "19:00", "type": "home", "team": "H1", "place": "Stadion Wr. Neustadt", "color": "sky", "example": true },
+  { "id": "bsp-m2", "title": "H1 vs Volleyteam NÖ", "start": "2026-11-11", "time": "19:30", "type": "away", "team": "H1", "example": true },
+  { "id": "bsp-m3", "title": "H1 vs SG Purkersdorf/Tulln", "start": "2026-11-21", "time": "18:00", "type": "away", "team": "H1", "example": true },
+  { "id": "bsp-m4", "title": "H1 vs Wr. Neustadt 2", "start": "2026-11-28", "time": "19:00", "type": "home", "team": "H1", "example": true }
+]

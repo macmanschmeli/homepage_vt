@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    /* 404-Seiten werden von GitHub Pages unter beliebigen Pfaden ausgeliefert. Damit relative
+       Pfade trotzdem funktionieren, wird hier ein <base> gesetzt. Bei Projektseiten
+       (user.github.io/repo/) ist das der erste Pfadabschnitt; bei eigener Domain "/".
+       Abweichende Konfigurationen: BASE_OVERRIDE setzen, z. B. "/mein-repo/". */
+    (function () {
+      var BASE_OVERRIDE = null;
+      var parts = location.pathname.split('/').filter(Boolean);
+      var base = BASE_OVERRIDE || (/\.github\.io$/.test(location.hostname) && parts.length ? '/' + parts[0] + '/' : '/');
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <title>Seite nicht gefunden – Südstadt volleyteam</title>
+  <meta name="description" content="Seite nicht gefunden.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="notfound">
+  <header id="site-header"></header>
+  <main id="main" tabindex="-1">
+    <noscript><div class="container"><div class="notice notice--error"><p>Für diese Seite wird JavaScript benötigt, da die Inhalte aus Konfigurationsdateien geladen werden.</p></div></div></noscript>
+    <section class="section not-found">
+      <div class="container container--narrow">
+        <p class="not-found__code" aria-hidden="true">404</p>
+        <h1 data-bind="page.heading" style="font-size:var(--fs-xl);max-width:none"></h1>
+        <p class="lead" style="margin-inline:auto" data-bind="page.text"></p>
+        <a class="btn" id="nf-cta" href="index.html"></a>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

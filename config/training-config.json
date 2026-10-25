@@ -1,0 +1,31 @@
+{
+  "_hinweis": "Konfiguration der Trainingsplan-Seite. Die Filter-IDs (teamFilters, hallFilters) werden in trainings.json referenziert.",
+  "scheduleStatus": "example",
+  "exampleNotice": "Achtung: Die angezeigten Einheiten sind Beispieldaten und KEINE bestätigten Trainingszeiten. Der Verein muss config/trainings.json mit dem aktuellen Plan befüllen (siehe README).",
+  "weekHeading": "Die Trainingswoche",
+  "weekNote": "Wöchentliche Trainingseinheiten. Änderungen und Hallenverfügbarkeit werden über den Vereinsplaner kommuniziert.",
+  "allLabel": "Alle",
+  "teamFilterLabel": "Mannschaft",
+  "hallFilterLabel": "Halle",
+  "resetLabel": "Filter zurücksetzen",
+  "noResults": "Für diese Filterauswahl gibt es keine Trainingseinheiten.",
+  "emptyDay": "Kein Training",
+  "resultsLabel": "{count} Trainingseinheiten angezeigt",
+  "teamFilters": [
+    { "id": "damen", "label": "Damen" },
+    { "id": "herren", "label": "Herren" },
+    { "id": "u16", "label": "U16" },
+    { "id": "u18", "label": "U18" },
+    { "id": "beginners", "label": "Beginners" }
+  ],
+  "days": [
+    { "id": "mo", "label": "Montag" },
+    { "id": "di", "label": "Dienstag" },
+    { "id": "mi", "label": "Mittwoch" },
+    { "id": "do", "label": "Donnerstag" },
+    { "id": "fr", "label": "Freitag" },
+    { "id": "sa", "label": "Samstag" },
+    { "id": "so", "label": "Sonntag" }
+  ],
+  "showEmptyDays": false
+}

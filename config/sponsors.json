@@ -1,0 +1,14 @@
+[
+  { "id": "billa", "name": "BILLA", "logo": null, "url": "https://www.billa.at", "tier": "sponsor", "order": 1, "active": true },
+  { "id": "suedstadt-apotheke", "name": "Südstadt Apotheke", "logo": null, "url": "https://www.suedstadt-apo.at", "tier": "sponsor", "order": 2, "active": true },
+  { "id": "movemed", "name": "MoveMed", "logo": null, "url": "https://www.move-med.net/", "tier": "sponsor", "order": 3, "active": true },
+  { "id": "ordination-prinz", "name": "Ordination Dr. Prinz", "logo": null, "url": "https://www.prinz-med.at/", "tier": "supporter", "order": 10, "active": true },
+  { "id": "radio-one", "name": "Radio One", "logo": null, "url": "https://www.radio-one.at/", "tier": "supporter", "order": 11, "active": true },
+  { "id": "stark-im-kopf", "name": "Stark im Kopf", "logo": null, "url": "https://stark-im-kopf.at/wp/", "tier": "supporter", "order": 12, "active": true },
+  { "id": "stadt-moedling", "name": "Stadt Mödling", "logo": null, "url": "https://www.moedling.at/", "tier": "supporter", "order": 13, "active": true },
+  { "id": "codeknacker", "name": "Codeknacker", "logo": null, "url": "https://www.codeknacker.at/", "tier": "supporter", "order": 14, "active": true },
+  { "id": "danke-opa", "name": "Danke Opa", "logo": null, "url": null, "tier": "supporter", "order": 15, "active": true },
+  { "id": "raumecho", "name": "raumecho", "logo": null, "url": "https://www.raumecho.com/", "tier": "supporter", "order": 16, "active": true },
+  { "id": "karner-consulting", "name": "Karner Consulting", "logo": null, "url": "https://www.karner.co.at/", "tier": "supporter", "order": 17, "active": true },
+  { "id": "kennys", "name": "Kenny's", "logo": null, "url": "https://www.kennys.at/", "tier": "supporter", "order": 18, "active": true }
+]

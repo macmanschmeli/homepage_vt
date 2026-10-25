@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matches & Termine – Südstadt volleyteam</title>
+  <meta name="description" content="Die nächsten Matches und Termine des Südstadt volleyteam.">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="matches">
+  <header id="site-header"></header>
+  <main id="main" tabindex="-1">
+    <noscript><div class="container"><div class="notice notice--error"><p>Für diese Seite wird JavaScript benötigt, da die Inhalte aus Konfigurationsdateien geladen werden.</p></div></div></noscript>
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow" data-bind="page.eyebrow"></p>
+        <h1 data-bind="page.heading"></h1>
+        <p class="lead" data-bind="page.intro"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="match-notice"></div>
+        <div id="match-filters" class="filter-bar"></div>
+        <div id="match-list"><div class="skeleton" aria-hidden="true"></div></div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

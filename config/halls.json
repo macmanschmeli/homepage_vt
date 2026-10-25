@@ -1,0 +1,9 @@
+[
+  { "id": "modeschule", "label": "Modeschule" },
+  { "id": "bachgasse", "label": "Bachgasse" },
+  { "id": "perchtoldsdorf", "label": "Perchtoldsdorf" },
+  { "id": "suedstadt", "label": "Südstadt" },
+  { "id": "guntramsdorf", "label": "Guntramsdorf" },
+  { "id": "europahalle", "label": "Europahalle" },
+  { "id": "altort", "label": "Altort" }
+]
